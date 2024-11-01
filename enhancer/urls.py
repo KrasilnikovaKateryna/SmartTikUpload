@@ -4,6 +4,6 @@ from . import views
 urlpatterns = [
     path('', views.home, name='home'),  # Home page URL
     path('profile/', views.profile),
-    path('browse/', views.browse),
-    path('streams/', views.streams),
+    path('privacy/', views.browse),
+    path('terms/', views.streams),
 ]
