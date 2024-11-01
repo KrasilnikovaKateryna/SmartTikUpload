@@ -13,4 +13,4 @@ def streams(request):
     return render(request, 'streams.html')
 
 def verify(request):
-    return render(request, "tiktokwd9eTPTREJxOVGUTwpwNUoIxQ2rBZJKR.txt")
+    return render(request, "verify.html")

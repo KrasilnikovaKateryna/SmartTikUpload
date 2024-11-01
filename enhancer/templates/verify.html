@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    <meta http-equiv="refresh" content="0; url='{% static "tiktokwd9eTPTREJxOVGUTwpwNUoIxQ2rBZJKR.txt" %}'" />-->
+</head>
+<body>
+    <script>
+        const fileUrl = "{% static "tiktokwd9eTPTREJxOVGUTwpwNUoIxQ2rBZJKR.txt" %}";
+
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = '';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    </script>
+
+</body>
+</html>
