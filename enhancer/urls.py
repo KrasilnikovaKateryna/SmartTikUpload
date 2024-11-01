@@ -6,4 +6,5 @@ urlpatterns = [
     path('profile/', views.profile),
     path('privacy/', views.browse),
     path('terms/', views.streams),
+    path('verify/', views.verify),
 ]

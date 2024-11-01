@@ -11,3 +11,6 @@ def browse(request):
 
 def streams(request):
     return render(request, 'streams.html')
+
+def verify(request):
+    return render(request, "tiktokwd9eTPTREJxOVGUTwpwNUoIxQ2rBZJKR.txt")
